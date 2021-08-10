@@ -543,16 +543,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4722ffcba3c61e249a4aeaa33124df2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 150
+  speed: 100
   attack: 30
   cd: 3
   hp: 500
   radiusTrack: 8
   radiusAttack: 5.2
-  groundOffset: {x: -1.75, y: -2.63, z: 0}
+  groundOffset: {x: 1.84, y: -2.63, z: 0}
   groundRadius: 0.18
-  attackOffset: {x: -2.49, y: 0.44, z: 100}
-  attackSize: {x: 2, y: 5.33, z: 0.1}
+  attackOffset: {x: 2.66, y: 0.43, z: 0}
+  attackSize: {x: 2.6, y: 4.98, z: 0.1}
   prop: {fileID: 286721464292635177, guid: bc654fa0fa736ec4aace6206444a99ff, type: 3}
   propProbility: 0.5
   secondHp: 300
@@ -572,8 +572,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.1328629, y: -0.059999943}
-  m_Size: {x: 1.555726, y: 3.2300003}
+  m_Offset: {x: 0.08424632, y: -0.059999943}
+  m_Size: {x: 1.5828604, y: 3.2300003}
   m_Direction: 0
 --- !u!50 &445851353
 Rigidbody2D:
@@ -657,7 +657,7 @@ SpriteRenderer:
   m_Sprite: {fileID: 4723107735738678597, guid: b4c94ac35245cc6499a9029c8564bd80,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 0.8, y: 0.8}
@@ -673,13 +673,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 445851350}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 123.76, y: -0.66, z: 0}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1001 &478408793
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -779,7 +779,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 493661763}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 2bf3066e2a5f2fa49977150f2b7d5cab, type: 3}
@@ -1414,7 +1414,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 708410277}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 109.17, y: -1.68, z: 0}
+  m_LocalPosition: {x: -5.5, y: -1.68, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2303657802699962822}
